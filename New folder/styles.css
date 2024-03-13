@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("hhh.avif"); 
+    background-position: center center;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+
+.centered-image img {
+    width: 350px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.enter-button1 {
+    padding: 16px 80px;
+    font-size: 23px;
+    background-color: #eb3477; /* Dark pink button */
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+.enter-button2 {
+    padding: 16px 65px;
+    font-size: 24px;
+    background-color: #eb3477; /* Dark pink button */
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.enter-button3{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px 30px;
+    font-size: 30px;
+    background-color: #eb3477; /* Dark pink button */
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.enter-button:hover {
+    background-color: #eb3477; /* Lighter pink on hover */
+}
+
+.centered-text {
+    text-align: center;
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 40px;
+
+}
+
+.container2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    text-align: center;
+    font-size: 19px;
+    width: 900px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
